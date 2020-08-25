@@ -3,7 +3,7 @@ import styled from 'styled-components/native'
 export const Container = styled.ScrollView.attrs(() => ({
     showsVerticalScrollIndicator: false
 }))`
-    background: #222831;
+    background: #121212;
     padding: 25px 10px;
 `
 
@@ -21,7 +21,7 @@ export const ItemContainer = styled.View`
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background: #222831;
+    background: #1f1f1f;
     border-bottom-width: 1px;
     border-bottom-color: #303845;
 `
