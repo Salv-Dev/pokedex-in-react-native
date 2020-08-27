@@ -2,11 +2,9 @@ import React from 'react'
 import CardFlip from 'react-native-card-flip'
 import { MaterialIcons } from '@expo/vector-icons'
 
-import { Text } from 'react-native'
-
 import img from './../../../assets/charizard.png'
 
-import { Container, FrontCard, BackCard, CardHeader, ItemId, ItemTitle, CardBody, ItemLoc, Span, Loc, ItemInfos, Info, CardFooter, ItemImage, MoreInfo, InfoText } from './styles'
+import { Container, FrontCard, BackCard, CardHeader, ItemId, ItemTitle, CardBody, ItemType, Type, ItemInfos, Info, CardFooter, ItemImage, MoreInfo, InfoText, ContainerStats, Stat, Title, ContainerAbilities, Ability, CardContainer, BaseXp } from './styles'
 
 export default function Card() {
     return (
@@ -16,12 +14,9 @@ export default function Card() {
                     <CardHeader>
                         <ItemId>#004</ItemId>
                         <ItemTitle>Charizard</ItemTitle>
+                        <BaseXp>Base xp: 240</BaseXp>
                     </CardHeader>
                     <CardBody>
-                        <ItemLoc>
-                            <Span>Region: </Span>
-                            <Loc>Kanto</Loc>
-                        </ItemLoc>
                         <ItemInfos>
                             <Info>Height: 3.54m</Info>
                             <Info>weight: 38.23kg</Info>
@@ -37,7 +32,31 @@ export default function Card() {
                 </FrontCard>
 
                 <BackCard onPress={() => this.card.flip()}>
-                    <Text>Back</Text>
+                    <CardContainer>
+                        <ItemType>
+                            <Type>Fire</Type>
+                            <Type>Fire</Type>
+                            <Type>Fire</Type>
+                        </ItemType>
+                        <Title>Base Stats:</Title>
+                        <ContainerStats>
+                            <Stat>HP: 78</Stat>
+                            <Stat>ATTACK: 84</Stat>
+                            <Stat>DEFENSE: 78</Stat>
+                            <Stat>SP. ATACK: 109</Stat>
+                            <Stat>SP.DEFENSE: 85</Stat>
+                            <Stat>SPEED: 100</Stat>
+                        </ContainerStats>
+                        <Title>Abilities:</Title>
+                        <ContainerAbilities>
+                            <Ability>BLAZE</Ability>
+                            <Ability>SOLAR-POWER</Ability>
+                        </ContainerAbilities>
+                        <MoreInfo>
+                            <InfoText>More info</InfoText>
+                            <MaterialIcons name="touch-app" size={22} color="#424242" />
+                        </MoreInfo>
+                    </CardContainer>
                 </BackCard>
             </CardFlip>
         </Container>

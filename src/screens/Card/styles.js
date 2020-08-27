@@ -10,6 +10,7 @@ export const Container = styled.View`
 export const FrontCard = styled.TouchableOpacity.attrs(() => ({
     activeOpacity: 1,
 }))`
+    justify-content: center;
     color: #fff;
     width: 320px;
     height: 550px;
@@ -22,9 +23,12 @@ export const FrontCard = styled.TouchableOpacity.attrs(() => ({
 export const BackCard = styled.TouchableOpacity.attrs(() => ({
     activeOpacity: 1,
 }))`
+    justify-content: center;
+    align-items: center;
     color: #fff;
     width: 320px;
     height: 550px;
+    padding: 5px 25px;
     background: #202020;
     border-radius: 8px;
 `
@@ -34,40 +38,47 @@ export  const CardHeader = styled.View``
 export  const ItemId = styled.Text`
     color: #fff;
     font-size: 16px;
+    font-style: italic;
 `
 
-export  const ItemTitle = styled.Text`
+export const ItemTitle = styled.Text`
     color: #fff;
-    font-size: 22px;
+    font-size: 40px;
     font-weight: bold;
-    margin-top: 5px;
+    font-style: italic;
+`
+
+export const BaseXp = styled.Text`
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    margin: -10px 0 0 10px;
+    color: #505050;
 `
 
 export  const CardBody = styled.View`
-    margin-top: 40px;
+    margin-top: 20px;
 `
 
-export  const ItemLoc = styled.View`
+export  const ItemType = styled.View`
+    width: 150px;
     flex-direction: row;
-    position: absolute;
-    top: 50px;
-    left: -38px;
-    transform: rotate(270deg);
+    flex-wrap: wrap;
+    margin-top: 10px;
 `
 
-export  const Span = styled.Text`
+export  const Type = styled.Text`
     font-size: 14px;
-    color: #fff;
     font-weight: bold;
-`
-
-export  const Loc = styled.Text`
-    font-size: 14px;
     color: #fff;
+    padding: 2px 20px;
+    margin: 0 5px 5px 0;
+    border-radius: 15px;
+    background: #f54275;
 `
 
 export  const ItemInfos = styled.View`
-    margin: 50px 0 0 50px;
+    margin: 40px 0 0 50px;
 `
 
 export  const Info = styled.Text`
@@ -98,4 +109,48 @@ export const InfoText = styled.Text`
     color: #424242;
     margin-right: 5px;
     font-weight: bold;
+`
+
+export const CardContainer = styled.View`
+    width: ${ 320 / 2}px;
+`
+
+export const ContainerStats = styled.View`
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 135px;
+    margin: 5px 0 0 0;
+`
+
+export const Stat = styled.Text`
+    font-size: 12px;
+    font-weight: bold;
+    color: #121212;
+    padding: 5px;
+    margin: 0 5px 5px 0;
+    background: #fff;
+    border-radius: 4px;
+`
+
+export const Title = styled.Text`
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 15px;
+`
+
+export const ContainerAbilities = styled.View`
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px 0 10px 0;
+`
+
+export const Ability = styled.Text`
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    background: #fff;
+    border-radius: 4px;
+    color: #121212;
+    margin: 5px 5px 0 0;
 `

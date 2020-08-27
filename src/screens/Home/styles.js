@@ -21,9 +21,9 @@ export const ItemContainer = styled.View`
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background: #1f1f1f;
-    border-bottom-width: 1px;
-    border-bottom-color: #303845;
+    background: #202020;
+    border-bottom-width: 4px;
+    border-bottom-color: #121212;
 `
 
 export const ItemInfos = styled.View`
@@ -58,8 +58,9 @@ export const ItemTypes = styled.View`
 
 export const Type = styled.Text`
     font-size: 12px;
-    color: #f54275;
-    border: 1px solid #f54275;
+    font-weight: bold;
+    color: #fff;
+    background: #f54275;
     padding: 2px 20px;
     border-radius: 25px;
     margin: 2px;
