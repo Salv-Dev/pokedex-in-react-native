@@ -1,0 +1,111 @@
+[
+    {
+        "type": "normal",
+        "fontColor": "#121212",
+        "backgroundColor": "#d7dae0",
+        "backgroundCard": "#f1f3f8"
+    },
+    {
+        "type": "grass",
+        "fontColor": "#fff",
+        "backgroundColor": "#43b57b",
+        "backgroundCard": "#52de97"
+    },
+    {
+        "type": "fire",
+        "fontColor": "#fff",
+        "backgroundColor": "#cf3863",
+        "backgroundCard": "#f54275"
+    },
+    {
+        "type": "water",
+        "fontColor": "#fff",
+        "backgroundColor": "#4ba4d6",
+        "backgroundCard": "#55b9f2"
+    },
+    {
+        "type": "fighting",
+        "fontColor": "#fff",
+        "backgroundColor": "#472c2c",
+        "backgroundCard": "#5d3a3a"
+    },
+    {
+        "type": "flying",
+        "fontColor": "#121212",
+        "backgroundColor": "#b8d6d9",
+        "backgroundCard": "#cbeaed"
+    },
+    {
+        "type": "poison",
+        "fontColor": "#fff",
+        "backgroundColor": "#60417a",
+        "backgroundCard": "#6f4a8e"
+    },
+    {
+        "type": "ground",
+        "fontColor": "#121212",
+        "backgroundColor": "#d4b96a",
+        "backgroundCard": "#f8dc88"
+    },
+    {
+        "type": "rock",
+        "fontColor": "#fff",
+        "backgroundColor": "#bf6a36",
+        "backgroundCard": "#eb8242"
+    },
+    {
+        "type": "bug",
+        "fontColor": "#fff",
+        "backgroundColor": "#a7b339",
+        "backgroundCard": "#ccda46"
+    },
+    {
+        "type": "ghost",
+        "fontColor": "#fff",
+        "backgroundColor": "#231b36",
+        "backgroundCard": "#3b2e5a"
+    },
+    {
+        "type": "electric",
+        "fontColor": "#121212",
+        "backgroundColor": "#dec568",
+        "backgroundCard": "#ffe277"
+    },
+    {
+        "type": "psychic",
+        "fontColor": "#fff",
+        "backgroundColor": "#cf5774",
+        "backgroundCard": "#f76a8c"
+    },
+    {
+        "type": "ice",
+        "fontColor": "#121212",
+        "backgroundColor": "#a7cfdb",
+        "backgroundCard": "#c3f1ff"
+    },
+    {
+        "type": "dragon",
+        "fontColor": "#fff",
+        "backgroundColor": "#431f73",
+        "backgroundCard": "#5c2a9d"
+    },
+    {
+        "type": "dark",
+        "fontColor": "#fff",
+        "backgroundColor": "#121212",
+        "backgroundCard": "#404040"
+    },
+    {
+        "type": "steel",
+        "fontColor": "#fff",
+        "backgroundColor": "#bab8b8",
+        "backgroundCard": "#cfcfcf"
+    },
+    {
+        "type": "fairy",
+        "fontColor": "#121212",
+        "backgroundColor": "#c9a3cf",
+        "backgroundCard": "#ecc4f2"
+    }
+    
+]

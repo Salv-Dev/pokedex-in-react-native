@@ -1,135 +1,37 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import { FlatList } from 'react-native'
 
-import img from './../../../assets/charizard.png'
+//https://pokeres.bastionbot.org/images/pokemon/1.png
 
-import { Container, TitleScreen, ItemContainer, ItemInfos, Img, ItemName, Title, ItemId,  ItemTypes, Type } from './styles'
+import Item from './../../components/Item'
+import pokedex from './../../api/pokedex.json'
+import axios from 'axios'
 
-export default function Home() {
+import { Container, TitleScreen } from './styles'
+
+export default function Home({ navigation }) {
+    const [Items, setItems] = useState()
+
+    function getItems() {
+        setItems(pokedex)
+    }
+
+    useEffect(() => {
+        getItems()
+    }, [])
+
     return (
         <Container>
-
             <TitleScreen>Pokedex</TitleScreen>
-
-            <ItemContainer>
-                <ItemInfos>
-                    <Img source={img} />
-                    <ItemName>
-                        <Title>Charmander</Title>
-                        <ItemId>#4</ItemId>
-                    </ItemName>
-                </ItemInfos>
-                <ItemTypes>
-                    <Type>Fire</Type>
-                </ItemTypes>
-            </ItemContainer>
-
-            <ItemContainer>
-                <ItemInfos>
-                    <Img source={img} />
-                    <ItemName>
-                        <Title>Charmander</Title>
-                        <ItemId>#4</ItemId>
-                    </ItemName>
-                </ItemInfos>
-                <ItemTypes>
-                    <Type>Fire</Type>
-                    <Type>Fire</Type>
-                    <Type>Fire</Type>
-                </ItemTypes>
-            </ItemContainer>
-
-            <ItemContainer>
-                <ItemInfos>
-                    <Img source={img} />
-                    <ItemName>
-                        <Title>Charmander</Title>
-                        <ItemId>#4</ItemId>
-                    </ItemName>
-                </ItemInfos>
-                <ItemTypes>
-                    <Type>Fire</Type>
-                </ItemTypes>
-            </ItemContainer>
-
-            <ItemContainer>
-                <ItemInfos>
-                    <Img source={img} />
-                    <ItemName>
-                        <Title>Charmander</Title>
-                        <ItemId>#4</ItemId>
-                    </ItemName>
-                </ItemInfos>
-                <ItemTypes>
-                    <Type>Fire</Type>
-                </ItemTypes>
-            </ItemContainer>
-
-            <ItemContainer>
-                <ItemInfos>
-                    <Img source={img} />
-                    <ItemName>
-                        <Title>Charmander</Title>
-                        <ItemId>#4</ItemId>
-                    </ItemName>
-                </ItemInfos>
-                <ItemTypes>
-                    <Type>Fire</Type>
-                </ItemTypes>
-            </ItemContainer>
-
-            <ItemContainer>
-                <ItemInfos>
-                    <Img source={img} />
-                    <ItemName>
-                        <Title>Charmander</Title>
-                        <ItemId>#4</ItemId>
-                    </ItemName>
-                </ItemInfos>
-                <ItemTypes>
-                    <Type>Fire</Type>
-                </ItemTypes>
-            </ItemContainer>
-
-            <ItemContainer>
-                <ItemInfos>
-                    <Img source={img} />
-                    <ItemName>
-                        <Title>Charmander</Title>
-                        <ItemId>#4</ItemId>
-                    </ItemName>
-                </ItemInfos>
-                <ItemTypes>
-                    <Type>Fire</Type>
-                </ItemTypes>
-            </ItemContainer>
-
-            <ItemContainer>
-                <ItemInfos>
-                    <Img source={img} />
-                    <ItemName>
-                        <Title>Charmander</Title>
-                        <ItemId>#4</ItemId>
-                    </ItemName>
-                </ItemInfos>
-                <ItemTypes>
-                    <Type>Fire</Type>
-                </ItemTypes>
-            </ItemContainer>
-
-            <ItemContainer>
-                <ItemInfos>
-                    <Img source={img} />
-                    <ItemName>
-                        <Title>Charmander</Title>
-                        <ItemId>#4</ItemId>
-                    </ItemName>
-                </ItemInfos>
-                <ItemTypes>
-                    <Type>Fire</Type>
-                </ItemTypes>
-            </ItemContainer>
-
             
+
+            <FlatList
+                data = { Items }
+                initialNumToRender={10}
+                renderItem = { ({ item }) => <Item navigation={ navigation } item={ item }/> }
+                keyExtractor={(item, index) => index.toString()}
+            />
+
         </Container>
     )
 }
