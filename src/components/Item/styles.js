@@ -6,9 +6,8 @@ export const ItemContainer = styled.TouchableOpacity`
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background: #202020;
-    border-bottom-width: 4px;
-    border-bottom-color: #121212;
+    background: #e8e8e8;
+    margin-bottom: 8px;
 `
 
 export const ItemInfos = styled.View`
@@ -26,27 +25,30 @@ export const Img = styled.Image`
 export const ItemName = styled.View``
 
 export const Title = styled.Text`
-    color: #fff;
+    color: #121212;
     font-size: 16px;
     font-weight: bold;
 `
 
 export const ItemId = styled.Text`
-    color: #5b6b85;
+    color: #929aab;
     font-size: 14px;
 `
 
 export const ItemTypes = styled.View`
+    align-items: flex-start;
     flex-wrap: wrap;
     padding-top: 8px;
 `
 
 export const Type = styled.Text`
+    text-align: center;
     font-size: 12px;
     font-weight: bold;
-    color: #fff;
-    background: #f54275;
+    color: ${props => props.styles.fontColor};
+    background: ${props => props.styles.backgroundCard};
     padding: 2px 20px;
     border-radius: 25px;
     margin: 2px;
+    elevation: 5;
 `

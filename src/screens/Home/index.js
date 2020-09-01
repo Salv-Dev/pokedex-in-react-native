@@ -1,37 +1,29 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect, useState, useContext } from 'react'
 import { FlatList } from 'react-native'
-
-//https://pokeres.bastionbot.org/images/pokemon/1.png
+import PokeContext from './../../PokeContext'
 
 import Item from './../../components/Item'
-import pokedex from './../../api/pokedex.json'
-import axios from 'axios'
 
 import { Container, TitleScreen } from './styles'
 
 export default function Home({ navigation }) {
-    const [Items, setItems] = useState()
-
-    function getItems() {
-        setItems(pokedex)
-    }
+    const content = useContext(PokeContext)
+    const [items, setItems] = useState([])
 
     useEffect(() => {
-        getItems()
+        setItems(content.pokedex)
     }, [])
 
     return (
         <Container>
             <TitleScreen>Pokedex</TitleScreen>
-            
-
             <FlatList
-                data = { Items }
+                showsVerticalScrollIndicator={false}
+                data = { items }
                 initialNumToRender={10}
                 renderItem = { ({ item }) => <Item navigation={ navigation } item={ item }/> }
                 keyExtractor={(item, index) => index.toString()}
             />
-
         </Container>
     )
 }

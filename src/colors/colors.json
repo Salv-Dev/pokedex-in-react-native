@@ -2,91 +2,91 @@
     {
         "type": "normal",
         "fontColor": "#121212",
-        "backgroundColor": "#d7dae0",
+        "backgroundColor": "#b9bec7",
         "backgroundCard": "#f1f3f8"
     },
     {
         "type": "grass",
         "fontColor": "#fff",
-        "backgroundColor": "#43b57b",
-        "backgroundCard": "#52de97"
+        "backgroundColor": "#369665",
+        "backgroundCard": "#3cc982"
     },
     {
         "type": "fire",
         "fontColor": "#fff",
-        "backgroundColor": "#cf3863",
+        "backgroundColor": "#a82d50",
         "backgroundCard": "#f54275"
     },
     {
         "type": "water",
         "fontColor": "#fff",
-        "backgroundColor": "#4ba4d6",
+        "backgroundColor": "#3e89b3",
         "backgroundCard": "#55b9f2"
     },
     {
         "type": "fighting",
         "fontColor": "#fff",
-        "backgroundColor": "#472c2c",
+        "backgroundColor": "#301e1e",
         "backgroundCard": "#5d3a3a"
     },
     {
         "type": "flying",
         "fontColor": "#121212",
-        "backgroundColor": "#b8d6d9",
-        "backgroundCard": "#cbeaed"
+        "backgroundColor": "#4b93b3",
+        "backgroundCard": "#9cc5d6"
     },
     {
         "type": "poison",
         "fontColor": "#fff",
-        "backgroundColor": "#60417a",
+        "backgroundColor": "#442e57",
         "backgroundCard": "#6f4a8e"
     },
     {
         "type": "ground",
-        "fontColor": "#121212",
-        "backgroundColor": "#d4b96a",
-        "backgroundCard": "#f8dc88"
+        "fontColor": "#fff",
+        "backgroundColor": "#5c4d2e",
+        "backgroundCard": "#9e854f"
     },
     {
         "type": "rock",
         "fontColor": "#fff",
-        "backgroundColor": "#bf6a36",
+        "backgroundColor": "#8f4f28",
         "backgroundCard": "#eb8242"
     },
     {
         "type": "bug",
-        "fontColor": "#fff",
-        "backgroundColor": "#a7b339",
+        "fontColor": "#121212",
+        "backgroundColor": "#808a2b",
         "backgroundCard": "#ccda46"
     },
     {
         "type": "ghost",
         "fontColor": "#fff",
-        "backgroundColor": "#231b36",
+        "backgroundColor": "#140f1f",
         "backgroundCard": "#3b2e5a"
     },
     {
         "type": "electric",
         "fontColor": "#121212",
-        "backgroundColor": "#dec568",
+        "backgroundColor": "#b5a155",
         "backgroundCard": "#ffe277"
     },
     {
         "type": "psychic",
         "fontColor": "#fff",
-        "backgroundColor": "#cf5774",
+        "backgroundColor": "#ab4860",
         "backgroundCard": "#f76a8c"
     },
     {
         "type": "ice",
         "fontColor": "#121212",
-        "backgroundColor": "#a7cfdb",
+        "backgroundColor": "#88abb5",
         "backgroundCard": "#c3f1ff"
     },
     {
         "type": "dragon",
         "fontColor": "#fff",
-        "backgroundColor": "#431f73",
+        "backgroundColor": "#311654",
         "backgroundCard": "#5c2a9d"
     },
     {
@@ -98,13 +98,13 @@
     {
         "type": "steel",
         "fontColor": "#fff",
-        "backgroundColor": "#bab8b8",
-        "backgroundCard": "#cfcfcf"
+        "backgroundColor": "#9e9d9d",
+        "backgroundCard": "#8c8c8c"
     },
     {
         "type": "fairy",
         "fontColor": "#121212",
-        "backgroundColor": "#c9a3cf",
+        "backgroundColor": "#a685ab",
         "backgroundCard": "#ecc4f2"
     }
     

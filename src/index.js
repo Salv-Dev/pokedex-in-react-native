@@ -10,7 +10,7 @@ const Stack = createStackNavigator()
 export default function Main() {
     return (
         <>
-            <StatusBar barStyle="light-content" backgroundColor="transparent" translucent/>
+            <StatusBar barStyle="dark-content" backgroundColor="transparent" translucent/>
             <Stack.Navigator initialRouteName={Home}>
                 <Stack.Screen name="Home" component={Home} options={{
                     headerShown: false,
