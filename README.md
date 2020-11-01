@@ -16,5 +16,5 @@ A **Pokédex**, também conhecida como Poké-Agenda no Brasil é uma enciclopéd
 - Styled components
   
 ### Back-End
-- https://pokeapi.co/api/v2/pokemon
+- https://pokeapi.co
 
