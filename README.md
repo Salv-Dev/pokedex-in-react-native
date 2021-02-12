@@ -24,7 +24,7 @@ Pokédex em React Native
 
 ## Features
 [//]: # (Add the features of your project here:)
-###Observações
+### Observações
 
 - É necessário ter o Expo instalado -> https://docs.expo.io/
 - Use um emulador ou instale o app Expo Go no seu smartphone para rodar o projeto
@@ -48,7 +48,7 @@ Pokédex em React Native
 2. Rode `npm install` para instalar as dependências
 3. Rode `expo start` para iniciar o projeto e abrir o Metro Bundler no navegador
 4. Caso você tenha instalado o app Expo Go, com ele leia o qrcode que aparece no metro bundler
-*obs.: se tiver algum erro de inicializacão no Expo Go, mude a conexão de LAN para TUNNEL no metro bundler
+<p>*obs.: se tiver algum erro de inicializacão no Expo Go, mude a conexão de LAN para TUNNEL no metro bundler</p>
 
 ## License
 
