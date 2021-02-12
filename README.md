@@ -7,7 +7,7 @@
 Pokédex em React Native
 </h1>
 
-<p align="center">A **Pokédex**, também conhecida como Poké-Agenda no Brasil é uma enciclopédia virtual portátil que registra todas as espécies diferentes de Pokémon, listando informações úteis sobre tal.</p>
+<p align="center">A <i>Pokédex</i>, também conhecida como Poké-Agenda no Brasil é uma enciclopédia virtual portátil que registra todas as espécies diferentes de Pokémon, listando informações úteis sobre tal.</p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
@@ -17,7 +17,7 @@ Pokédex em React Native
 
 [//]: # (Add your gifs/images here:)
 <div>
-  <img src="./images/pokedex.png" alt="demo" height="600">
+  <img src="./images/pokedex.gif" alt="demo" height="600">
 </div>
 
 <hr />
