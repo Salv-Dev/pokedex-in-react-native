@@ -45,9 +45,10 @@ Pokédex em React Native
 ## Iniciando
 
 1. Clone o repositório: `git@github.com:Salv-Dev/pokedex-in-react-native.git`
-2. Rode `npm install` para instalar as dependências
-3. Rode `expo start` para iniciar o projeto e abrir o Metro Bundler no navegador
-4. Caso você tenha instalado o app Expo Go, com ele leia o qrcode que aparece no metro bundler
+2. Vá para o diretório `cd pokedex-in-react-native`
+3. Rode `npm install` para instalar as dependências
+4. Rode `expo start` para iniciar o projeto e abrir o Metro Bundler no navegador
+5. Caso você tenha instalado o app Expo Go, com ele leia o qrcode que aparece no metro bundler
 <p>*obs.: se tiver algum erro de inicializacão no Expo Go, mude a conexão de LAN para TUNNEL no metro bundler</p>
 
 ## License
